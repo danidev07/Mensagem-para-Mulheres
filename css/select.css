@@ -1,0 +1,102 @@
+.item-select{
+    opacity: 1;
+    display: relative;
+    z-index: 2 ;
+    position: fixed;
+    right: 10rem;
+    bottom: 0.8rem;
+    background-color: var(--second-color);
+    width: 650px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border: 2px solid #FFF;
+}
+
+
+.item-select img{
+    margin-right: 30%;
+    margin-bottom: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: all 0.5s;
+    
+}
+
+.name-select{
+    position: absolute;
+    color: #FFF;
+    font-family: var(--font-main);
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0.1rem 0.1rem 2px rgba(0, 0, 0, 0.9);
+    top: 30px;
+    left: 100px;
+    
+}
+
+.btn-generate-message{
+    position: absolute;
+    top: 15px;
+    left: 200px;
+    padding: 15px;
+    border: none;
+    font-family: var(--font-main);
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0.1rem 0.1rem 2px rgba(0, 0, 0, 0.9);
+    color: #FFF;
+    background: var(--second-color);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-generate-message:hover{
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    transform: scale(1.05);
+}
+
+
+.btn-back{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 15px;
+    border: none;
+    font-family: var(--font-main);
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0.1rem 0.1rem 2px rgba(0, 0, 0, 0.9);
+    color: #FFF;
+    background: var(--second-color);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-back:hover{
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    transform: scale(1.05);
+}
+
+
+
+.section-message{
+    position: absolute;
+    top: 130px;
+    right: 112px;
+    height: 160px;
+    width: 420px;
+    background-color: rgba(244, 222, 220, 0.90);
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    transition: transform 0.5s;
+}

@@ -1,0 +1,157 @@
+/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;600;700&display=swap');
+
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+html body{
+    width: 100%;
+    overflow: hidden;
+}
+
+/* ROOT */
+:root{
+
+    --bg-color: rgb(244, 229, 232);
+    --font-main: "Sansita Swashed", sans-serif;
+    --second-color: rgb(244, 222, 220);
+}
+
+
+/* HEADER */
+
+.container{
+    background-color: rgb(244, 229, 232);
+    position: relative;
+}
+
+.message-top {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-family: var(--font-main);
+    font-size: 45px;
+    color: #FFF;
+    text-shadow: 0.2rem 0.1rem 2px rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+
+
+.img-woman-top img{
+    max-width: 800px;
+    min-width: 300px;
+    position: absolute;
+    width: 10px;
+    height: 150px;
+    top: 10px;
+    right: 0.5rem;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.img-woman-top img:hover{
+    opacity: 1;
+}
+
+
+.img-woman-bg img{
+    max-width: 1000px;
+    min-width: 300px;
+    height: 100vh;
+    margin-left: 30px;
+    border-radius: 8px;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.img-woman-bg img:hover{
+    opacity: 1;
+}
+
+
+/* MAIN */
+
+
+main .banner-main{
+    position: relative;
+    max-width: 500px;
+    max-height: 300px;
+    position: absolute;
+    right: 20rem;
+    top: 8rem;
+    font-family: var(--font-main);
+    font-size: 2rem;
+    color: #FFF;
+    text-shadow: 0.1rem 0.1rem 2px rgba(0, 0, 0, 1);
+    line-height: 50px;
+    letter-spacing: 0.1rem;
+}
+
+
+section .container-select{
+    position: absolute;
+    right: 10rem;
+    bottom: 1rem;
+    background-color: var(--second-color);
+    width: 650px;
+    height: 330px;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ 
+   
+
+.card-item{
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-basis: 30%;
+    
+    transition: transform 0.5s ease-in-out;
+    
+}
+
+.card-item:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.card-item h3{
+    color: #FFF;
+    font-family: var(--font-main);
+    font-size: 25px;
+    text-shadow: 0.1rem 0.1rem 2px rgba(0, 0, 0, 0.9);
+    
+}
+
+
+.card-item img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    opacity: 0.7;
+    
+}
+
+.card-item img:hover{
+    opacity: 1;
+    
+}
+
+
+
